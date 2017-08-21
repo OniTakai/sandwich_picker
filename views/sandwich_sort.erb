@@ -1,0 +1,6 @@
+<%pick.each do |x|%>
+<form action="/correct">
+        <p><input type="checkbox" value="<%=x%>" name="toppings[]" checked><%=x%></p>
+    <%end%>
+    <input type="submit" value="Comfirm!">
+</form>
